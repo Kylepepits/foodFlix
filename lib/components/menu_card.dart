@@ -70,14 +70,13 @@ class MenuCard extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
                   child: Text(
-                    "Shortbread, chocolate turtle cookies, and red velvet.",
+                    "Lami ang ginadili",
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Row(
                   children: [
-                    const Text("\$\$"),
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 8),
                       child: CircleAvatar(
@@ -85,10 +84,10 @@ class MenuCard extends StatelessWidget {
                         backgroundColor: Colors.black38,
                       ),
                     ),
-                    const Text("Chinese"),
+                    const Text("Basak Campus"),
                     const Spacer(),
                     Text(
-                      "USD$price",
+                      "P$price",
                       style: const TextStyle(
                         fontWeight: FontWeight.w500,
                         color: Color(0xFF22A45D),

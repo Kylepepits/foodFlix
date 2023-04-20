@@ -14,7 +14,7 @@ class restaurantAppBar extends StatelessWidget {
       pinned: true,
       flexibleSpace: FlexibleSpaceBar(
         background: Image.asset(
-          "assets/images/Header-image.png",
+          "assets/concessionaires/tapinks.jpg",
           fit: BoxFit.cover,
         ),
       ),

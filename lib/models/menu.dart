@@ -1,5 +1,3 @@
-// For demo
-
 class Menu {
   final String title, image;
   final double price;
@@ -19,69 +17,59 @@ final List<CategoryMenu> demoCategoryMenus = [
     category: "Most Popular",
     items: [
       Menu(
-        price: 7.4,
-        image: "assets/images/f_0.png",
-        title: "Cookie Sandwich",
+        price: 20,
+        image: "assets/foods/lumpia.jpg",
+        title: "3 Lumpia",
       ),
       Menu(
-        price: 9.0,
-        image: "assets/images/f_1.png",
-        title: "Chow Fun",
+        price: 20,
+        image: "assets/foods/siomai.jpg",
+        title: "3 Siomai",
       ),
       Menu(
-        price: 8.5,
-        image: "assets/images/f_2.png",
-        title: "Dim SUm",
-      ),
-      Menu(
-        price: 12.4,
-        image: "assets/images/f_3.png",
-        title: "Cookie Sandwich",
+        price: 25,
+        image: "assets/foods/calamansi.jpg",
+        title: "Calamansi Juice",
       ),
     ],
   ),
   CategoryMenu(
-    category: "Beef & Lamb",
+    category: "Breakfast",
     items: [
       Menu(
-        price: 7.4,
-        image: "assets/images/f_4.png",
-        title: "Combo Burger",
+        price: 25,
+        image: "assets/foods/eggrice.jpg",
+        title: "Egg /w Rice",
       ),
       Menu(
-        price: 9.0,
-        image: "assets/images/f_5.png",
-        title: "Combo Sandwich",
+        price: 35,
+        image: "assets/foods/longrice.jpg",
+        title: "Longanisa /w Rice",
       ),
       Menu(
-        price: 8.5,
-        image: "assets/images/f_2.png",
-        title: "Dim SUm",
-      ),
-      Menu(
-        price: 12.4,
-        image: "assets/images/f_3.png",
-        title: "Oyster Dish",
+        price: 30,
+        image: "assets/foods/hotrice.jpg",
+        title: "Hotdog /w Rice",
       ),
     ],
   ),
   CategoryMenu(
-    category: "Seafood",
+    category: "Lunch",
     items: [
       Menu(
-        price: 7.4,
-        image: "assets/images/f_6.png",
-        title: "Oyster Dish",
+        price: 45,
+        image: "assets/foods/chickrice.jpg",
+        title: "Chicken Curry /w Rice",
       ),
       Menu(
-        price: 9.0,
-        image: "assets/images/f_7.png",
-        title: "Oyster On Ice",
+        price: 45,
+        image: "assets/foods/humrice.jpg",
+        title: "Humba /w Rice",
       ),
       Menu(
-        price: 8.5,
-        image: "assets/images/f_8.png",
-        title: "Fried Rice on Pot",
+        price: 40,
+        image: "assets/foods/sigrice.jpg",
+        title: "Sisig /w Rice",
       ),
     ],
   ),
@@ -89,64 +77,39 @@ final List<CategoryMenu> demoCategoryMenus = [
     category: "Appetizers",
     items: [
       Menu(
-        price: 8.5,
-        image: "assets/images/f_2.png",
-        title: "Dim SUm",
+        price: 15,
+        image: "assets/foods/turon.jpg",
+        title: "Turon",
       ),
       Menu(
-        price: 7.4,
-        image: "assets/images/f_0.png",
-        title: "Cookie Sandwich",
-      ),
-      Menu(
-        price: 9.0,
-        image: "assets/images/f_5.png",
-        title: "Combo Sandwich",
-      ),
-      Menu(
-        price: 12.4,
-        image: "assets/images/f_3.png",
-        title: "Cookie Sandwich",
-      ),
-      Menu(
-        price: 9.0,
-        image: "assets/images/f_1.png",
-        title: "Chow Fun",
+        price: 10,
+        image: "assets/foods/hotcake.jpg",
+        title: "Hotcake",
       ),
     ],
   ),
   CategoryMenu(
-    category: "Dim Sum",
+    category: "Drinks",
     items: [
       Menu(
-        price: 9.0,
-        image: "assets/images/f_5.png",
-        title: "Combo Sandwich",
+        price: 25,
+        image: "assets/foods/water.jpg",
+        title: "Water",
       ),
       Menu(
-        price: 12.4,
-        image: "assets/images/f_3.png",
-        title: "Cookie Sandwich",
+        price: 25,
+        image: "assets/foods/calamansi.jpg",
+        title: "Calamansi Juice",
       ),
       Menu(
-        price: 8.5,
-        image: "assets/images/f_2.png",
-        title: "Dim SUm",
+        price: 35,
+        image: "assets/foods/bukojuice.jpg",
+        title: "Buko Juice",
       ),
       Menu(
-        price: 7.4,
-        image: "assets/images/f_6.png",
-        title: "Oyster Dish",
-      ),
-      Menu(
-        price: 9.0,
-        image: "assets/images/f_7.png",
-        title: "Oyster On Ice",
-      ),
-      Menu(
-        price: 8.5,
-        image: "assets/images/f_8.png",
-        title: "Fried Rice on Pot",
+        price: 20,
+        image: "assets/foods/c2.jpg",
+        title: "C2-Solo",
       ),
     ],
   ),

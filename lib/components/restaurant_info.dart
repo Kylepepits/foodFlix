@@ -16,7 +16,7 @@ class RestaurantInfo extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Mayfield Bakery & Cafe",
+              "Tita Pinks",
               style: Theme.of(context).textTheme.headline6,
             ),
             Padding(
@@ -28,7 +28,6 @@ class RestaurantInfo extends StatelessWidget {
                 ),
                 child: Row(
                   children: const [
-                    Text("\$\$"),
                     Padding(
                       padding: EdgeInsets.symmetric(horizontal: 8),
                       child: CircleAvatar(
@@ -36,7 +35,7 @@ class RestaurantInfo extends StatelessWidget {
                         backgroundColor: Color(0xFF868686),
                       ),
                     ),
-                    Text("Chinese, American, Deshi food")
+                    Text("Basak, Pardo")
                   ],
                 ),
               ),
@@ -54,14 +53,14 @@ class RestaurantInfo extends StatelessWidget {
             Row(
               children: [
                 const InfoCard(
-                  svgSrc: "assets/icons/delivery.svg",
-                  title: "Free",
-                  subtitle: "Delivery",
+                  svgSrc: "assets/icons/selpon.svg",
+                  title: "Contact",
+                  subtitle: "Details",
                 ),
                 const SizedBox(width: 16),
                 const InfoCard(
                   svgSrc: "assets/icons/clock.svg",
-                  title: "25",
+                  title: "5",
                   subtitle: "Minutes",
                 ),
                 const SizedBox(width: 24),
