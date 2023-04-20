@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodly/homepage.dart';
 import 'package:foodly/restaurant_page.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primarySwatch: Colors.blue,
       ),
-      home: const RestaurantPage(),
+      home: Homepage(),
     );
   }
 }

@@ -20,9 +20,14 @@ class restaurantAppBar extends StatelessWidget {
       ),
       leading: Padding(
         padding: const EdgeInsets.only(left: 16),
-        child: CircleAvatar(
-            backgroundColor: Colors.white,
-            child: SvgPicture.asset("assets/icons/back.svg")),
+        child: GestureDetector(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: CircleAvatar(
+              backgroundColor: Colors.white,
+              child: SvgPicture.asset("assets/icons/back.svg")),
+        ),
       ),
       actions: [
         CircleAvatar(
