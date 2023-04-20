@@ -1,11 +1,13 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:foodly/components/menu_card.dart';
-import 'package:foodly/components/restaruant_categories.dart';
-import 'package:foodly/components/restaurant_info.dart';
-import 'package:foodly/models/menu.dart';
+import 'package:foodflix/components/details.dart';
+import 'package:foodflix/components/categories.dart';
+import 'package:foodflix/components/info.dart';
+import 'package:foodflix/models/menu.dart';
 
-import 'components/restaurant_appBar.dart';
+import 'components/appbar.dart';
 
 class RestaurantPage extends StatefulWidget {
   const RestaurantPage({Key? key}) : super(key: key);

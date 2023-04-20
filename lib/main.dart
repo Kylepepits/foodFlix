@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodly/homepage.dart';
-import 'package:foodly/restaurant_page.dart';
+import 'package:foodflix/homepage.dart';
+import 'package:foodflix/page.dart';
 
 void main() {
   runApp(const MyApp());

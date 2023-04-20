@@ -27,43 +27,34 @@ class RestaurantInfo extends StatelessWidget {
                   color: Color(0xFF868686),
                 ),
                 child: Row(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 8),
-                      child: CircleAvatar(
-                        radius: 2,
-                        backgroundColor: Color(0xFF868686),
-                      ),
-                    ),
-                    Text("Basak, Pardo")
-                  ],
+                  children: const [Text("Basak, Pardo")],
                 ),
               ),
             ),
             Row(
               children: [
-                const Text("4.3"),
+                const Text("4.7"),
                 const SizedBox(width: 8),
                 SvgPicture.asset("assets/icons/rating.svg"),
                 const SizedBox(width: 4),
-                const Text("200+ Ratings")
+                const Text("444+ Ratings")
               ],
             ),
             const Spacer(),
             Row(
               children: [
                 const InfoCard(
-                  svgSrc: "assets/icons/selpon.svg",
+                  svgSrc: "assets/icons/clock.svg",
                   title: "Contact",
                   subtitle: "Details",
                 ),
-                const SizedBox(width: 16),
+                const SizedBox(width: 5),
                 const InfoCard(
                   svgSrc: "assets/icons/clock.svg",
                   title: "5",
                   subtitle: "Minutes",
                 ),
-                const SizedBox(width: 24),
+                const SizedBox(width: 10),
                 const Spacer(),
                 OutlinedButton(
                   onPressed: () {},
@@ -76,13 +67,12 @@ class RestaurantInfo extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    "Take away".toUpperCase(),
+                    "Cart".toUpperCase(),
                     style: const TextStyle(fontSize: 12),
                   ),
                 )
               ],
             ),
-            // const Spacer(),
           ],
         ),
       ),

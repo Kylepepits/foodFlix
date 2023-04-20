@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:foodflix/homepage.dart';
+import 'package:foodflix/page.dart';
 
 class MenuCategoryItem extends StatelessWidget {
   const MenuCategoryItem({
@@ -47,10 +49,15 @@ class MenuCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        SizedBox(
-          width: 100,
-          height: 100,
-          child: Image.asset(image),
+        GestureDetector(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: SizedBox(
+            width: 100,
+            height: 100,
+            child: Image.asset(image),
+          ),
         ),
         const SizedBox(width: 16),
         Expanded(
@@ -70,7 +77,7 @@ class MenuCard extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
                   child: Text(
-                    "Lami ang ginadili",
+                    "Details of the food",
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
